@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+		background-color: #FFE4B5;
+		color: #228B22;
+}
+
+table {
+	border: solid #228B22 thin;
+	border-collapse: collapse;
+}
+
+th {
+	border: solid #228B22 thin;
+	background-color: #228B22;
+	color: #FFE4B5;
+}
+
+td {
+	text-align: center;
+	border: solid #228B22 thin;
+}
+
+td:nth-child(2) {
+	text-align: left;
+}
+
+@media (max-device-width: 400px) {
+	h2 {
+		font-size: 3em;
+	}	
+	
+	table {
+		font-size: 2em;
+		border: solid #228B22 thin;
+	}
+}
